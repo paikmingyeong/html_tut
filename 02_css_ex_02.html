@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 연습 2 - 선택자 연습</title>
+  <style>
+    /*자식 선택자 연습*/
+    ul>li{
+      color:orange;
+    }
+
+    /*자손 선택자 연습*/
+    ul li{
+      background:skyblue;
+    }
+    input[type=button]{
+      background: pink;
+    }
+  </style>
+</head>
+<body>
+
+<!--자식/자손 선택자 연습-->
+<ul>
+  <li>
+    HTML
+    <ol>
+      <li>mark up</li>
+      <li>structure</li>
+    </ol>
+  </li>
+  <li>CSS</li>
+  <li>Javascript</li>
+</ul>
+
+<p>
+  ul의 자식요소인 li에 글꼴 색을 적용할 때, li의 자손요소인 <br/>
+  div, ol, li 태그들에 글꼴색이 모두 적용됨.<br/>
+  이것을 스타일 상속이라고 부름.<br/>
+  스타일 상속은 CSS Property에 따라서
+</p>
+
+<!--인접 선택자 연습-->
+<div>
+  <h2>Hello</h2>
+  <p>문법에 맞게 html을 사용하는 것</p>
+  <P>lorem Ipsum dolor </P>
+</div>
+
+
+<!--속성 선택자 연습-->
+<div>
+  <input type="text"/>
+  <input type="password"/>
+  <input type="button"/>
+</div>
+
+
+
+
+
+
+</body>
+</html>

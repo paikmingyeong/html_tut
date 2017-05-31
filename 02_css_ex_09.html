@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS 연습 9 - 박스모델</title>
+  <style>
+    .box1{
+      width:500px;
+      height:300px;
+      padding:30px;/* 4방향 공통적용 */
+      border:5px solid red; /* 축약코딩 : 첫번째 값-굵기, 두번째 값-모양, 세번째 값-색 */
+      margin:60px;
+
+      background:skyblue;
+    }
+
+    .inner-box{
+      width:100%;
+      height:100%;
+      background:url(images/bg_image.jpg);
+    }
+    /* padding 값 사용법 */
+    .padding1{
+      padding: 10px 30px; /* 왼쪽값 : 상하  오른쪽값 : 좌우 로 쌍으로 적용 */
+    }
+    .padding2{
+      padding: 10px 50px 200px; /* 왼:위, 중간:좌우 오른쪽:아래 */
+    }
+
+    .padding3{
+      padding: 10px 50px 200px 100px; /* 1:상에 적용되고 시계방향으로 적용됨 */
+    }
+
+
+    /*
+     4방향 중 특정 방향의 padding 값을 적용하고자 할 때
+      padding-left:10px;
+      padding-top:10px;
+      padding-right:10px;
+      padding-bottom:10px;
+    */
+
+    .border1{
+      border-width:1px;
+      border-style: dashed;
+      border-color:blue;
+    }
+
+    /* 테두리의 방향에 따라서 각각 지정해 줄 수 있음 */
+    .border2{
+      border-left: 1px solid green;
+      border-top: 10px solid green;
+      border-right: 20px solid green;
+      border-bottom: 30px solid green;
+    }
+
+  </style>
+
+</head>
+<body>
+
+
+<div class="box1">
+  <div class="inner-box">
+    박스 모델
+  </div>
+</div>
+
+<div class="box1">
+  박스 모델
+</div>
+
+
+<div class="box1 padding1 border1">
+  <div class="inner-box">
+    박스 모델
+  </div>
+</div>
+
+<div class="box1 padding2 border2">
+  <div class="inner-box">
+  박스 모델
+  </div>
+</div>
+
+
+<div class="box1 padding3 border3">
+  <div class="inner-box">
+  박스 모델
+  </div>
+</div>
+
+
+
+</body>
+</html>

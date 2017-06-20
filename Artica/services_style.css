@@ -1,0 +1,119 @@
+.header{
+  height:119px;
+  background:#c4a2e2;
+  padding-top:44px;
+}
+.gnb{
+  width:100%;
+  height:75px;
+  background:#f9fafc;
+
+}
+
+.inner-box{
+  width:940px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.inner-box:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+.logo{
+  float:left;
+  margin-top:24px;
+
+  background:url(images_artica/logo.png) no-repeat;
+  text-indent:-99999px;
+}
+
+.menu{
+  float:left;
+  margin-left:244px;
+}
+
+.menu-list{
+  width:402px;
+  margin-top:30px;
+}
+
+.menu-list-item{
+  float:left;
+  margin-right:34px;
+}
+.menu-list-item:last-child{
+  margin-right:0;
+}
+
+.menu-list-link{
+  color:#2c4755;
+  font-weight:700;
+  font-size:14px;
+}
+
+.input-search{
+  width:142px;
+  height:37px;
+  float:right;
+  margin-top:20px;
+  font-weight:500;
+  border-radius:8px;
+  border:1px solid #999;
+}
+
+.input-search:before{
+  content:"";
+  display:inline-block;
+  width:11px;
+  height:11px;
+
+  background:url(images_artica/astro_icon.png)no-repeat 0px 0px;
+}
+
+/*-------------------------------------------------------------*/
+
+
+.section1{
+  width:100%;
+  height:290px;
+  background:#c4a2e2;
+}
+
+.heading-section{
+  font-size:25px;
+  margin-bottom:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

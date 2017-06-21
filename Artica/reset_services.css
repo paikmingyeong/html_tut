@@ -35,9 +35,9 @@ footer, header, menu, nav, section {
 }
 body {
   line-height: 1;
-  font-size:15px;
+  font-size:14px;
   color:#2c4755;
-  font-family:Lato, sans-serif;
+  font-family:Myriad Pro, sans-serif;
   font-weight:400;
 }
 ol, ul {

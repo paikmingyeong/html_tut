@@ -1,5 +1,23 @@
 # html_tut
- Tutorial 연습 소스
+
+## 개념
+
+1. HTML(Hyper Text Markup Language)
+   - 웹 페이지의 논리 구조르르 통해 콘텐츠를 표시하는 언어
+   - HTML5 추가된 요소 : header, footer, footer, section, nav, article, aside
+
+2. CSS
+   2-1. CSS2
+     - 레이아웃( 박스모델 ) 관련 CSS
+     - 개체( 대상 ) 스타일 관련 CSS
+
+   2-2. CSS3
+     - 개체( 대상 ) 스타일 관련 CSS
+     - 변환, 에니메이션 관련 CSS
+     - flex : 레이아웃 관련 CSS
+
+
+# Tutorial 연습 소스
 
 1. HTML
 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>배경 css3</title>
+
+  <style>
+    .box {
+      width: 500px;
+      height: 300px;
+    }
+    .bgd1{
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9e4f7+8,a9e4f7+22,1f2a2d+62,6ab569+79,0fb4e7+100 */
+      background: #a9e4f7; /* Old browsers */
+      background: -moz-linear-gradient(top, #a9e4f7 8%, #a9e4f7 22%, #1f2a2d 62%, #6ab569 79%, #0fb4e7 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #a9e4f7 8%,#a9e4f7 22%,#1f2a2d 62%,#6ab569 79%,#0fb4e7 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #a9e4f7 8%,#a9e4f7 22%,#1f2a2d 62%,#6ab569 79%,#0fb4e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+    }
+    .bgd2{
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,e5bcd6+30,c19e67+50,c19e67+50,4d3989+52,68777f+71,f3e2c7+80,561e06+97 */
+      background: #f3e2c7; /* Old browsers */
+      background: -moz-linear-gradient(top, #f3e2c7 0%, #e5bcd6 30%, #c19e67 50%, #c19e67 50%, #4d3989 52%, #68777f 71%, #f3e2c7 80%, #561e06 97%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #f3e2c7 0%,#e5bcd6 30%,#c19e67 50%,#c19e67 50%,#4d3989 52%,#68777f 71%,#f3e2c7 80%,#561e06 97%); /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(to bottom, #f3e2c7 0%,#e5bcd6 30%,#c19e67 50%,#c19e67 50%,#4d3989 52%,#68777f 71%,#f3e2c7 80%,#561e06 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#561e06',GradientType=0 ); /* IE6-9 */
+    }
+    .bgd3{
+      background:url(images/5-1.jpg);
+      background-size: contain;
+    }
+    .bgd4{
+      background:url(images/5-1.jpg);
+      background-size: cover;
+    }
+
+    .bgd5{
+      width:100%;
+      background:url(images/5-1.jpg) center;
+      background-size: cover;
+    }
+
+  </style>
+
+</head>
+<body>
+
+<div class="box bgd1">박스1</div>
+
+<div class="box bgd2">박스2</div>
+
+<div class="box bgd3">박스3</div>
+
+<div class="box bgd4">박스4</div>
+
+<div class="box bgd5">박스5</div>
+
+</body>
+</html>

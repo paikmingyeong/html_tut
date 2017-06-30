@@ -26,7 +26,7 @@
   width:85px;
   height:35px;
   float:left;
-  margin-top:24px;
+  margin-top:23px;
 
   background:url(images_artica/logo.png) no-repeat;
   text-indent:-99999px;
@@ -35,6 +35,7 @@
 .menu{
   float:left;
   margin-left:244px;
+  margin-top: 3px;
 }
 
 .menu-list{
@@ -44,7 +45,7 @@
 
 .menu-list-item{
   float:left;
-  margin-right:34px;
+  margin-right:37px;
 }
 .menu-list-item:last-child{
   margin-right:0;
@@ -56,14 +57,30 @@
   font-size:14px;
 }
 
+
 .input-search{
   width:142px;
   height:37px;
   float:right;
   margin-top:18px;
+  padding-left: 6px;
   font-weight:500;
+  font-family: Myriad Pro, sans-serif;
   border-radius:8px;
-  border:1px solid #999;
+  border:1px solid #cfcfcf;
+}
+
+.input-search input::-webkit-input-placeholder{
+  color:#2c4755;
+}
+.input-search input::-moz-placeholder{
+  color:#2c4755;
+}
+.input-search input:-ms-input-placeholder{
+  color:#2c4755;
+}
+.input-search input:-moz-placeholder{
+  color:#2c4755;
 }
 
 .input-search:after{
@@ -97,13 +114,13 @@
   height:11px;
   background:url(images_artica/astro_icon.png) no-repeat;
   float:left;
-  margin:0 4px 0 0;
+  margin:0 4px 3px 0;
 }
 .number{
   font-size:11px;
   float:left;
   margin-right:26px;
-  margin-top:13px;
+  margin-top:16px;
 }
 
 .email:before{
@@ -115,13 +132,13 @@
   height:11px;
   background:url(images_artica/astro_icon.png) no-repeat -16px 0;
   float:left;
-  margin: 1px 9px 0 0;
+  margin: 0 9px 0 0;
 }
 
 
 .email{
   font-size:11px;
-  margin-top:13px;
+  margin-top:15px;
   float:left;
 }
 
@@ -132,6 +149,7 @@
 
   width:18px;
   height:11px;
+  float:left;
   background:url(images_artica/astro_icon.png) no-repeat -16px 0;
 
 }
